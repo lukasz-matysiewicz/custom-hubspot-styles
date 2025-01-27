@@ -1,2 +1,38 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Compiled files
+*.map
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.*
+
+# Build files
+/build/
+/dist/
+
+# WordPress
+wp-config.php
+wp-content/
+!wp-content/plugins/animated-gutenberg-gallery/
+
+# Testing
+/tests/coverage/
+
+# Logs
+*.log
+error_log
